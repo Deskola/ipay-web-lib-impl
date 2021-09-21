@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LibImp</string>
+    <string name="amount">Amount</string>
+    <string name="checkout_btn">Checkout</string>
+    <string name="email_address">Email</string>
+    <string name="phone_number">hone</string>
+</resources>
