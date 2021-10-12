@@ -10,7 +10,7 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
-import com.example.uglibrary.iPay
+import com.example.ipay_channels.iPay
 
 
 class Checkout : AppCompatActivity() {
@@ -52,8 +52,6 @@ class Checkout : AppCompatActivity() {
             cbk,
             cst,
             crl,
-            mtn,
-            airtel,
             hashKey
         )
 
@@ -68,6 +66,7 @@ class Checkout : AppCompatActivity() {
             this.settings.useWideViewPort = true
             this.settings.loadWithOverviewMode = true
             this.settings.domStorageEnabled = true
+
             this.webViewClient = WebViewClient()
             webView.loadUrl(response)
         }
